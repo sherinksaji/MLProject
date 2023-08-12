@@ -32,6 +32,7 @@ def get_predicted(predicted, answers=defaultdict(lambda: defaultdict(defaultdict
         else:
             split_line = line.split(separator)
             #word = split_line[0]
+            #print(split_line)
             value = split_line[outputColumnIndex]
             ne = value[0]
             sent = value[2:]
